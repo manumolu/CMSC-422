@@ -1,0 +1,236 @@
+The number of Attribute Nodes is 24 
+
+
+
+The number of Leaf Nodes is 35 
+
+
+The total number of nodes is 59 
+
+
+The number of training examples is 435 
+
+
+The accuracy is 100%!
+
+   physician-fee-freeze?
+   y
+  	 synfuels-corporation-cutback?
+  	 a
+  		 	->   republican
+  	 y
+  		 adoption-of-the-budget-resolution?
+  		 y
+  			 anti-satellite-test-ban?
+  			 y
+  				 	->   republican
+  			 n
+  				 	->   democrat
+  		 a
+  			 	->   democrat
+  		 n
+  			 el-salvador-aid?
+  			 y
+  				 export-administration-act-south-africa?
+  				 a
+  					 handicapped-infants?
+  					 y
+  						 	->   democrat
+  					 n
+  						 	->   republican
+  				 y
+  					 	->   republican
+  				 n
+  					 superfund-right-to-sue?
+  					 y
+  						 water-project-cost-sharing?
+  						 y
+  							 	->   republican
+  						 n
+  							 handicapped-infants?
+  							 y
+  								 	->   republican
+  							 n
+  								 	->   democrat
+  					 n
+  						 	->   democrat
+  			 n
+  				 	->   democrat
+  	 n
+  		 duty-free-exports?
+  		 y
+  			 immigration?
+  			 y
+  				 	->   republican
+  			 n
+  				 export-administration-act-south-africa?
+  				 y
+  					 	->   democrat
+  				 a
+  					 water-project-cost-sharing?
+  					 y
+  						 	->   republican
+  					 n
+  						 	->   democrat
+  				 n
+  					 	->   republican
+  		 a
+  			 	->   republican
+  		 n
+  			 adoption-of-the-budget-resolution?
+  			 y
+  				 export-administration-act-south-africa?
+  				 y
+  					 	->   republican
+  				 a
+  					 handicapped-infants?
+  					 y
+  						 	->   republican
+  					 n
+  						 	->   democrat
+  			 n
+  				 	->   republican
+   a
+  	 mx-missile?
+  	 y
+  		 anti-satellite-test-ban?
+  		 y
+  			 	->   democrat
+  		 a
+  			 	->   democrat
+  		 n
+  			 	->   republican
+  	 a
+  		 	->   republican
+  	 n
+  		 	->   democrat
+   n
+  	 adoption-of-the-budget-resolution?
+  	 y
+  		 	->   democrat
+  	 a
+  		 	->   democrat
+  	 n
+  		 education-spending?
+  		 y
+  			 	->   democrat
+  		 a
+  			 	->   republican
+  		 n
+  			 synfuels-corporation-cutback?
+  			 y
+  				 	->   democrat
+  			 n
+  				 religious-groups-in-schools?
+  				 y
+  					 	->   democrat
+  				 n
+  					 crime?
+  					 y
+  						 	->   republican
+  					 n
+  						 	->   democrat
+The number of Attribute Nodes is 24 
+
+
+
+The number of Leaf Nodes is 35 
+
+
+The total number of nodes is 59 
+
+
+The number of training examples is 435 
+
+
+The accuracy is 100%!The number of training examples is 435   physician-fee-freeze?
+   y
+  	 synfuels-corporation-cutback?
+  	 a
+  		 	->   republican
+  	 y
+  		 adoption-of-the-budget-resolution?
+  		 y
+  			 anti-satellite-test-ban?
+  			 y
+  				 	->   republican
+  			 n
+  				 	->   democrat
+  		 a
+  			 	->   democrat
+  		 n
+  			 el-salvador-aid?
+  			 y
+  				 export-administration-act-south-africa?
+  				 a
+  					 handicapped-infants?
+  					 y
+  						 	->   democrat
+  					 n
+  						 	->   republican
+  				 y
+  					 	->   republican
+  				 n
+  					 superfund-right-to-sue?
+  					 y
+  						 water-project-cost-sharing?
+  						 y
+  							 	->   republican
+  						 n
+  							 handicapped-infants?
+  							 y
+  								 	->   republican
+  							 n
+  								 	->   democrat
+  					 n
+  						 	->   democrat
+  			 n
+  				 	->   democrat
+  	 n
+  		 duty-free-exports?
+  		 y
+  			 immigration?
+  			 y
+  				 	->   republican
+  			 n
+  				 export-administration-act-south-africa?
+  				 y
+  					 	->   democrat
+  				 a
+  					 water-project-cost-sharing?
+  					 y
+  						 	->   republican
+  					 n
+  						 	->   democrat
+  				 n
+  					 	->   republican
+  		 a
+  			 	->   republican
+  		 n
+  			 adoption-of-the-budget-resolution?
+  			 y
+  				 export-administration-act-south-africa?
+  				 y
+  					 	->   republican
+  				 a
+  					 handicapped-infants?
+  					 y
+  						 	->   republican
+  					 n
+  						 	->   democrat
+  			 n
+  				 	->   republican
+   a
+  	 mx-missile?
+  	 y
+  		 anti-satellite-test-ban?
+  		 y
+  			 	->   democrat
+  		 a
+  			 	->   democrat
+  		 n
+  			 	->   republican
+  	 a
+  		 	->   republican
+  	 n
+  		 	

@@ -1,0 +1,68 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.TAN -- -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     breast-cancer
+Instances:    286
+Attributes:   10
+              age
+              menopause
+              tumor-size
+              inv-nodes
+              node-caps
+              deg-malig
+              breast
+              breast-quad
+              irradiat
+              Class
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=10 #classindex=9
+Network structure (nodes followed by parents)
+age(9): Class menopause 
+menopause(3): Class deg-malig 
+tumor-size(12): Class irradiat 
+inv-nodes(13): Class node-caps 
+node-caps(2): Class deg-malig 
+deg-malig(3): Class 
+breast(2): Class irradiat 
+breast-quad(5): Class breast 
+irradiat(2): Class inv-nodes 
+Class(2): 
+LogScore Bayes: -2849.5318887772096
+LogScore BDeu: -3591.4113663055805
+LogScore MDL: -3504.8258328247953
+LogScore ENTROPY: -2913.77468859412
+LogScore AIC: -3122.7746885941206
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         198               69.2308 %
+Incorrectly Classified Instances        88               30.7692 %
+Kappa statistic                          0.204 
+Mean absolute error                      0.3572
+Root mean squared error                  0.46  
+Relative absolute error                 85.3616 %
+Root relative squared error            100.6445 %
+Total Number of Instances              286     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.836    0.647    0.753      0.836    0.792      0.208    0.661     0.823     no-recurrence-events
+                 0.353    0.164    0.476      0.353    0.405      0.208    0.661     0.463     recurrence-events
+Weighted Avg.    0.692    0.504    0.671      0.692    0.677      0.208    0.661     0.716     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 168  33 |   a = no-recurrence-events
+  55  30 |   b = recurrence-events
+

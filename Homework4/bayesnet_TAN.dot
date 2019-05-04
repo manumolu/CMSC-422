@@ -1,0 +1,19 @@
+digraph breast-cancer-weka.filters.unsupervised.attribute.ReplaceMissingValues {
+Class->age
+menopause->age
+Class->menopause
+deg-malig->menopause
+Class->tumor-size
+irradiat->tumor-size
+Class->inv-nodes
+node-caps->inv-nodes
+Class->node-caps
+deg-malig->node-caps
+Class->deg-malig
+Class->breast
+irradiat->breast
+Class->breast-quad
+breast->breast-quad
+Class->irradiat
+inv-nodes->irradiat
+}

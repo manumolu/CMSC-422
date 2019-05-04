@@ -1,0 +1,78 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     party
+Instances:    435
+Attributes:   17
+              handicapped-infants
+              water-project-cost-sharing
+              adoption-of-the-budget-resolution
+              physician-fee-freeze
+              el-salvador-aid
+              religious-groups-in-schools
+              anti-satellite-test-ban
+              aid-to-nicaraguan-contras
+              mx-missile
+              immigration
+              synfuels-corporation-cutback
+              education-spending
+              superfund-right-to-sue
+              crime
+              duty-free-exports
+              export-administration-act-south-africa
+              Class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+physician-fee-freeze = n: democrat (247.0/2.0)
+physician-fee-freeze = y
+|   synfuels-corporation-cutback = n: republican (138.0/3.0)
+|   synfuels-corporation-cutback = y
+|   |   mx-missile = n
+|   |   |   adoption-of-the-budget-resolution = n: republican (21.0/3.0)
+|   |   |   adoption-of-the-budget-resolution = y
+|   |   |   |   water-project-cost-sharing = n: republican (2.0)
+|   |   |   |   water-project-cost-sharing = y: democrat (4.0)
+|   |   |   |   water-project-cost-sharing = a: democrat (0.0)
+|   |   |   adoption-of-the-budget-resolution = a: republican (0.0)
+|   |   mx-missile = y: democrat (5.0/1.0)
+|   |   mx-missile = a: republican (0.0)
+|   synfuels-corporation-cutback = a: republican (7.0)
+physician-fee-freeze = a: democrat (11.0/3.0)
+
+Number of Leaves  : 	11
+
+Size of the tree : 	16
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         414               95.1724 %
+Incorrectly Classified Instances        21                4.8276 %
+Kappa statistic                          0.8987
+Mean absolute error                      0.068 
+Root mean squared error                  0.2051
+Relative absolute error                 14.3367 %
+Root relative squared error             42.1278 %
+Total Number of Instances              435     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.951    0.048    0.969      0.951    0.960      0.899    0.963     0.952     democrat
+                 0.952    0.049    0.925      0.952    0.938      0.899    0.963     0.940     republican
+Weighted Avg.    0.952    0.048    0.952      0.952    0.952      0.899    0.963     0.947     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 254  13 |   a = democrat
+   8 160 |   b = republican
+

@@ -1,0 +1,7 @@
+1. DT.py is unmodified, however, it is used in party.py and edited in there. 
+
+2. The two text files are submitted, for ID3 and J48 Respectively. 
+
+
+Manohar Anumolu
+UID 115733039
